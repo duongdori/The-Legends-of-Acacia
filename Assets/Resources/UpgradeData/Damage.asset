@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b85f7ded5fad420ba4d1158b061f9f85, type: 3}
+  m_Name: Damage
+  m_EditorClassIdentifier: 
+  resourceNeeded: {fileID: 11400000, guid: 94e20531f26d22d4f9af35811038c29e, type: 2}
+  maxLevel: 5
+  costs: 3c0000006400000096000000c8000000fa0000002c010000

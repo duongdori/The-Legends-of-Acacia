@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe7592cdc61f440f0a5a57058d3c96ba, type: 3}
+  m_Name: Sword1Data
+  m_EditorClassIdentifier: 
+  attackDetails:
+  - attackName: Left Slash
+    movementSpeed: 2
+    damageAmount: 10
+    knockbackStrength: 5
+    knockbackAngle: {x: 1, y: 1}
+  - attackName: Right Slash
+    movementSpeed: 3
+    damageAmount: 15
+    knockbackStrength: 8
+    knockbackAngle: {x: 1, y: 1}
+  - attackName: Up Slash
+    movementSpeed: 1
+    damageAmount: 20
+    knockbackStrength: 10
+    knockbackAngle: {x: 1, y: 2}
+  amountOfAttacks: 3

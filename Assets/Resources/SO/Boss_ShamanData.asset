@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c74f9be87894965b1e157b208cb0ffb, type: 3}
+  m_Name: Boss_ShamanData
+  m_EditorClassIdentifier: 
+  healthLevels: []
+  moveSpeedLevels: []
+  groundCheckRadius: 0.25
+  wallCheckDistance: 5
+  attackCheckRadius: 2.2
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 64
+  moveSpeed: 5
+  moveDetectedSpeed: 8
+  attackDistance: 3
+  attackCooldown: 1
+  battleTime: 0.2
+  minIdleTime: 1
+  maxIdleTime: 2
+  maxDetectedDistance: 15
+  minDetectedDistance: 5
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 256
+  deathColliderHeight: 0.2
